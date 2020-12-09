@@ -8,14 +8,15 @@
             "name": "g++.exe - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
+            "targetArchitecture": "x86_64",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\MinGW\\bin\\gdb.exe",
+            "miDebuggerPath": "D:\\Runtime\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",

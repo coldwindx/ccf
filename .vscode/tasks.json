@@ -6,15 +6,17 @@
         {
             "type": "shell",
             "label": "g++.exe build active file",
-            "command": "D:\\MinGW\\bin\\g++.exe",
+            "command": "D:\\Runtime\\MinGW\\bin\\g++.exe",
             "args": [
                 "-g",
+                // "-Wall",
+                // "-std=c++11",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "D:\\MinGW\\bin"
+                "cwd": "D:\\Runtime\\MinGW\\bin"
             },
             "problemMatcher": [
                 "$gcc"
