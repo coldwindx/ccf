@@ -1,9 +1,11 @@
 {
     "files.associations": {
+        "typeinfo": "cpp",
         "xstring": "cpp",
         "vector": "cpp",
         "string": "cpp",
         "xtr1common": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "algorithm": "cpp"
     }
 }
